@@ -1,0 +1,49 @@
+● (0,5p) Crear un Terrain como base jugable, texturizado y con vegetación.
+● (0,5p) Todas las entradas nuevas de input (crear al menos 2) deberán estar
+mapeadas con Actions/Axis en vez de por eventos directos de
+teclado/mouse.
+	Action RestartGame: - Tecla R
+	Action QuitGame: - Tecla G
+	Action Possess: - Tecla P
+	Action Atack: - Mouse RightClick
+● (1p) Crear al menos 3 triggers con diferentes funcionalidades de entre las
+siguientes opciones:
+○ Item recolectable. MONEDA(CIRCULO)
+○ Zona de muerte. (CUBO)
+○ Abre una puerta si el player cumple X condición. (PUERTA)
+
+(1p) Crear un HUD que muestre al menos 3 de las siguientes cosas:
+○ Cantidad de ítems recogidos.
+○ La vida del player.
+○ Tiempo transcurrido desde que empezó la partida.
+
+
+● (1p) Crear al menos 2 animaciones para los elementos de HUD.
+Animacion al recivir daño (Al colisionar con la caja amarilla)
+Animacion al recoger monedas.
+
+
+● (1p) Crear otro montage en el que solo se aplique su animación de cintura
+para arriba del player.
+El jugador ataca al pulsar el boton derecho del raton.
+
+● (1p) Crear una secuencia que contenga al menos 4 de las siguientes
+opciones:
+○ Pincha una nueva cámara
+○ Bloquea los controles del player
+○ Lanza un sonido
+○ Mueve algún elemento de la escena - Mueve el cubo amarillo
+
+● (0,5p) Crear y lanzar un sonido que al menos tenga 2 de estas
+características:
+Se Activa al cojer una moneda.
+○ Que cuando se lance no siempre suene el mismo clip. Tiene 3 sonidos y se reproduce uno aleatorio
+○ Modificar su pitch de manera aleatoria entre dos valores. Se modifica su pitch de manera aleatoria.
+
+● (0,5p) Crear alguna funcionalidad en entre las siguientes, en el Level
+Blueprint:
+○ Restart Game
+
+● (0,5p) Aplicar la funcionalidad de que el player pueda poseer alguna IA.
+Posee a la IA presente en el mapa pulsando la P durante 2 segundos
+
